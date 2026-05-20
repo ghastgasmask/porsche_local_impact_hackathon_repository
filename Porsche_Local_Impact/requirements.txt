@@ -1,4 +1,3 @@
-libraries, languages:
 streamlit
 pandas
 numpy
@@ -7,16 +6,5 @@ scikit-learn
 scipy
 python-dateutil
 pytz
-
 groq
 python-dotenv
-
-python
-
-stuff:
-python
-csv files
-pickle file
-
-
-and happiness
