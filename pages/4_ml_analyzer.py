@@ -67,7 +67,7 @@ model_saver = MLModelSaver()
 if model_saver.model_exists():
     with st.spinner("Загрузка моделей машинного обучения..."):
         ml_analyzer = model_saver.create_ml_analyzer_from_saved(transactions_df, accounts_df)
-    st.toast("✅ Модели машинного обучения успешно загружены!", icon="🤖")
+    st.toast("✅ бро пссссссс модели машинного обучения успешно загружены ")
 else:
     st.markdown("""
     <div style="background-color: #fff9db; border-left: 5px solid #fab005; padding: 1rem; border-radius: 8px; margin: 0.5rem 0; color: #664d03; font-weight: 500;">
