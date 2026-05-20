@@ -1,0 +1,22 @@
+libraries, languages:
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+scipy
+python-dateutil
+pytz
+
+groq
+python-dotenv
+
+python
+
+stuff:
+python
+csv files
+pickle file
+
+
+and happiness

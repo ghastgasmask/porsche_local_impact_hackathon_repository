@@ -1,0 +1,37 @@
+{
+  "SEPA": {
+    "min_days": 1,
+    "max_days": 1,
+    "description": "Single Euro Payments Area - next business day",
+    "cutoff_time": "17:00",
+    "supports_instant": false
+  },
+  "SWIFT": {
+    "min_days": 2,
+    "max_days": 3,
+    "description": "International wire transfers",
+    "cutoff_time": "15:00",
+    "supports_instant": false
+  },
+  "CARD_CLEARING": {
+    "min_days": 3,
+    "max_days": 5,
+    "description": "Card payment settlement",
+    "cutoff_time": "23:59",
+    "supports_instant": false
+  },
+  "INSTANT": {
+    "min_days": 0,
+    "max_days": 0,
+    "description": "Real-time payments",
+    "cutoff_time": "24/7",
+    "supports_instant": true
+  },
+  "ACH": {
+    "min_days": 1,
+    "max_days": 1,
+    "description": "Automated Clearing House",
+    "cutoff_time": "16:00",
+    "supports_instant": false
+  }
+}
